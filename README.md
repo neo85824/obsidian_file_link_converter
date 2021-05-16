@@ -1,8 +1,15 @@
 # Obsidian File Link Converter (To standard Markdown style)
-Convert the file link with Obsidian style into standard Markdown style
+
+When inserting image in Obsidian, default format will be:
+
+```
+![[image.png]]
+```
+
+This code is able to convert the file link with Obsidian style into standard Markdown style
 
 ``` 
-![[url]] => !()[url]
+![[image.png]] => !()[image.png]
 ```
 
 ## Installation
